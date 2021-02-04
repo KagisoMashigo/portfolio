@@ -1,8 +1,10 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
-import data from "../yourdata"
+import data from "../data"
+import me from "../images/me.jpg"
 
 const About = () => {
+
   return (
     <div className="secion" id="about">
       <div className="container">
@@ -22,8 +24,7 @@ const About = () => {
             </p>
           </div>
           <div className="image-wrapper">
-            <img src={require("../images/me+doggo2.jpg")} alt="about"></img>
-
+            <img src={me} alt="Img Not Found"></img>
           </div>
         </div>
       </div>
