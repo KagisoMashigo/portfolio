@@ -28,7 +28,7 @@ const Footer = () => {
             ))}
           </div>
           <a>
-            <Link to="navbar-wrapper" spy={true} smooth={true} >Back to Top</Link>
+            <Link to="topSpan" spy={true} smooth={true} >Back to Top</Link>
           </a>
         </div>
       </div>
