@@ -27,9 +27,9 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <button>
+          <a>
             <Link to="navbar-wrapper" spy={true} smooth={true} >Back to Top</Link>
-          </button>
+          </a>
         </div>
       </div>
     </div>
