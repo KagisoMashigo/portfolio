@@ -33,8 +33,21 @@
       margin: 10px;
     }
   }
-  span {
-    margin-top: 10px;
+  button {
+    text-decoration: none;
+    padding: 10px;
+    font-family: "Open Sans";
+    opacity: 0.6;
+    transition: all 0.2s ease-in-out;
+    font-size: 25px;
+    background-color: transparent;
+    outline: none;
+    justify-content: space-between;
+    border: 0px;
+    cursor: pointer;
+    &:hover {
+      opacity: 1;
+    }
   }
   icon {
     color: red;
