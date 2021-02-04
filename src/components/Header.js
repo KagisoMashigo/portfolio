@@ -7,7 +7,7 @@ const Header = () => {
     <div className="section" id="home">
       <div className="container">
         <div className="header-wrapper">
-          {/* <Fade bottom>
+          <Fade bottom>
             <h2 className="titleName">
               {data.fullName}{" "}
             </h2>
@@ -45,7 +45,7 @@ const Header = () => {
             >
               CONNECT WITH ME
             </a>
-          </Fade> */}
+          </Fade>
         </div>
       </div>
     </div>

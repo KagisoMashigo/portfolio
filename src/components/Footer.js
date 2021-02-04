@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="section" id="contact">
       <div className="container">
-        {/* <div className="footer-container">
+        <div className="footer-container">
           <Fade bottom cascade>
             <h1>Contact</h1>
             <h2>{data.contactSubHeading}</h2>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <img src={socialLink.img} alt="icons"></img>
               </a>
             ))}
-          </div> */}
+          </div>
           <span>
             <a onClick={() => scrollTo(".navbar-wrapper")}>Back to Top</a>
           </span>

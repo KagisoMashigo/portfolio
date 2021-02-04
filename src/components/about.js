@@ -12,13 +12,13 @@ const About = () => {
               <h1>About Me</h1>
             </Fade>
             <p>
-              {/* {data.aboutParaOne}
+              {data.aboutParaOne}
               <br></br>
               <br></br>
               {data.aboutParaTwo}
               <br></br>
               <br></br>
-              {data.aboutParaThree} */}
+              {data.aboutParaThree}
             </p>
           </div>
           <div className="image-wrapper">
