@@ -1,7 +1,7 @@
 // Skills Icons
 import nodeIcon from "./images/node-brands.svg"
 import rubyIcon from "./images/rails.svg"
-import reactIcon from "./images/react.svg"
+import reactIcon from "./images/react-brands.svg"
 import jsIcon from "./images/node-js-brands.svg"
 import sqlIcon from "./images/sql.svg"
 import testIcon from "./images/test.svg"

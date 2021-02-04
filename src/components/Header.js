@@ -23,7 +23,7 @@ const Header = () => {
                 {" "}
                 {data.headerTagline[1]
                   ? data.headerTagline[1]
-                  : "Full-Stack Dev,"}
+                  : "Full-Stack Web Dev,"}
               </h1>
               <h1>
                 {" "}
