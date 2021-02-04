@@ -10,13 +10,13 @@ Link: https://layers-irl.netlify.app/
 ## Final Screenshots
 
 ### Mobile View 1
-!["Landing Page"](https://github.com/rothavanathan/LHL-final-project/blob/readme/client/docs/Entry.png?raw=true)
+!["Landing Page"](https://github.com/KagisoMashigo/portfolio/blob/master/docs/Screenshot%20from%202021-02-04%2013-25-05.png?raw=true)
 ### Mobile View 2
-!["User Homepage"](https://github.com/rothavanathan/LHL-final-project/blob/readme/client/docs/Home.png?raw=true)
+!["User Homepage"](https://github.com/KagisoMashigo/portfolio/blob/master/docs/Screenshot%20from%202021-02-04%2013-25-17.png?raw=true)
 ### Desktop View 1
-!["Search"](https://github.com/rothavanathan/LHL-final-project/blob/readme/client/docs/Search.png?raw=true)
+!["Search"](https://github.com/KagisoMashigo/portfolio/blob/master/docs/Screenshot%20from%202021-02-04%2013-25-30.png?raw=true)
 ### Desktop View 2
-!["Song Preview"](https://github.com/rothavanathan/LHL-final-project/blob/readme/client/docs/Song%20Preview.png?raw=true)
+!["Song Preview"](https://github.com/KagisoMashigo/portfolio/blob/master/docs/Screenshot%20from%202021-02-04%2013-25-40.png?raw=true)
 
 
 Thanks for looking! Enjoy a playlist or two.
