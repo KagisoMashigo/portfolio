@@ -42,7 +42,7 @@ export default {
       id: 1, //DO NOT CHANGE THIS (Please)😅
       title: "Layers", //Project Title - Add Your Project Title Here
       para:
-        "Layers a music application that allows a user to isolate stems of a song for teaching or recreational purposes. It is a sleek and responsive app that uses a React JS frontend with an Express JS and Node JS backend.", // Add Your Service Type Here
+        "Layers is an app for isolating stems of a song. It's a sleek, responsive app with a React JS frontend and an Express JS and Node JS backend.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://raw.githubusercontent.com/rothavanathan/LHL-final-project/master/client/public/logo512.png",
@@ -64,7 +64,7 @@ export default {
       id: 3, //DO NOT CHANGE THIS (Please)😅
       title: "Tweeter", //Project Title - Add Your Project Title Here
       para:
-        "Tweeter is a sleek, simple, single-page Twitter clone. The technologies used include HTML, CSS, JS, jQuery and AJAX along with Node, Express and MongoDB.", // Add Your Service Type Here
+        "Tweeter is a sleek, simple, SPA Twitter clone. Technologies used are CSS, JS, jQuery, AJAX, Node, Express and MongoDB.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
         "https://github.com/KagisoMashigo/tweeter/raw/master/public/images/screenshots/desktop-form-toggle-down.png?raw=true",
@@ -113,9 +113,9 @@ export default {
   aboutParaOne:
     "So who is this human in front of you? Johannesburg born, Cape Town raised and living in Montreal it's safe to say I may have an interesting take on life.",
   aboutParaTwo:
-    "In my personal life, I love finding new projects to build, geared towards things that make a user's life easier. I'm a huge fan of making playlists as you'll see below and am an avid craft beer drinker. I really enjoy being a part of a team and learning from others.",
+    "In my personal life, I love finding new projects to build, geared towards things that make a user's life easier or more insightful. I'm a huge fan of making playlists as you'll see below and am an avid craft beer drinker. I really enjoy being a part of a team and learning from others.",
   aboutParaThree:
-    "As a developer, I have an attention to detail and a penchant for squashing bugs. I care about things and I care about getting things done, I believe finding a good balance between the two is what allows one to simultaneously be a consummate professional and a human being.",
+    "As a developer, I have attention to detail and a penchant for squashing bugs. I care about things and I care about getting things done, I believe finding a good balance between the two is what allows one to simultaneously be a consummate professional and a human being.",
   aboutImage:
     "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
 

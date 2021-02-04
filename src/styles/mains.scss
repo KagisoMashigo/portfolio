@@ -48,6 +48,8 @@ body {
   border: 0px;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
+  border-radius: 30px;
+  font-size: 0.8rem;
   cursor: pointer;
   &:hover {
     transform: scale(1.1);
