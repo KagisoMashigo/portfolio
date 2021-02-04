@@ -4,7 +4,7 @@ Welcome to my portfolio, here you can have a prettier view into the work i've do
 
 The portfolio itself is a sleek SPA using React JS and SASS. It has a dark mode as well as cross site scrolling.
 
-Link: https://layers-irl.netlify.app/
+Link: https://kagisomashigo.github.io/portfolio/
 
 
 ## Final Screenshots
