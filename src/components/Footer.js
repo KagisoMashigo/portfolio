@@ -1,9 +1,10 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../data"
-// import scrollTo from "gatsby-plugin-smoothscroll"
+import {Link} from 'react-scroll'
 
 const Footer = () => {
+
   return (
     <div className="section" id="contact">
       <div className="container">
@@ -26,9 +27,9 @@ const Footer = () => {
               </a>
             ))}
           </div>
-          <span>
-            {/* <a onClick={() => scrollTo(".navbar-wrapper")}>Back to Top</a> */}
-          </span>
+          <button>
+            <Link to="navbar-wrapper" spy={true} smooth={true} >Back to Top</Link>
+          </button>
         </div>
       </div>
     </div>
