@@ -3,7 +3,6 @@ import Fade from "react-reveal/Fade"
 import data from "../data"
 import Card from "./atoms/Card"
 
-
 const Promotion = () => {
   return (
     <div className="section">
