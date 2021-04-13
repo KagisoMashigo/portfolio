@@ -182,6 +182,7 @@ export default {
         "https://images.unsplash.com/photo-1531268175162-63b1a224955c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
       
       url: "https://open.spotify.com/playlist/1DS9TjwhOKLUfMSCREwzHk",
+      embededUrl: "https://open.spotify.com/embed/playlist/1DS9TjwhOKLUfMSCREwzHk"
     },
     {
       id: 2, 
@@ -193,17 +194,21 @@ export default {
         "https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2271&q=80",
       
       url: "https://open.spotify.com/playlist/1of76lqv8LiKYdIuDUTLAE",
+      embededUrl: "https://open.spotify.com/embed/playlist/1of76lqv8LiKYdIuDUTLAE"
+
     },
     {
       id: 3, 
-      title: "Deep House Platter", 
+      title: "Rooftop Groove", 
       para:
-        "Starting out groovy and blended with vocals and then transitioning into bigger beats with just the right amount of synth.", 
+        "House that sounds as groovy as you look.", 
       
       imageSrc:
-        "https://images.unsplash.com/photo-1557787824-93666b9f6093?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVlcCUyMGhvdXNlJTIwbXVzaWN8ZW58MHx8MHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60",
+        "https://images.unsplash.com/photo-1582103121609-6467f9db55ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
       
-      url: "https://open.spotify.com/playlist/39cw4ZjQ8wYB9WTJqpwMjC",
+      url: "https://open.spotify.com/playlist/2X2Xn4Q3t42rBSEc3p4Bp5",
+      embededUrl: "https://open.spotify.com/embed/playlist/2X2Xn4Q3t42rBSEc3p4Bp5"
+
     },
 
   ],
