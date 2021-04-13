@@ -36,16 +36,7 @@ const Header = () => {
           <Fade bottom>
             <p>{data.headerParagraph}</p>
           </Fade>
-          <Fade bottom>
-            <a
-              href={`mailto:${
-                data.contactEmail ? data.contactEmail : "masterkakes@outlook.com"
-              }`}
-              className="primary-btn" 
-            >
-              Connect With Me
-            </a>
-          </Fade>
+
         </div>
       </div>
     </div>

@@ -14,6 +14,7 @@ const Promotion = () => {
           <div className="grid">
             <Fade bottom cascade>
               {data.playlists.map(playlist => (
+                <span className="playlists">
                 <Card
                   key={playlist.id}
                   heading={playlist.title}
@@ -21,6 +22,13 @@ const Promotion = () => {
                   imgUrl={playlist.imageSrc}
                   projectLink={playlist.url}
                 ></Card>
+                <iframe src={playlist.embededUrl}
+                width="300" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"
+                // key={playlist.id}
+
+                >
+                </iframe>
+                </span>
               ))}
             </Fade>
           </div>

@@ -1,6 +1,7 @@
 import React from "react"
 import Fade from "react-reveal/Fade"
 import data from "../data"
+import Button from "./Toggler"
 import {Link} from 'react-scroll'
 
 const Footer = () => {
@@ -16,6 +17,16 @@ const Footer = () => {
           <a className="email-link" href={`mailto:${data.contactEmail}`}>
             {data.contactEmail}
           </a>
+          {/* <Button >
+            <a
+              href={`mailto:${
+                data.contactEmail ? data.contactEmail : "masterkakes@outlook.com"
+              }`}
+              className="email-button" 
+            >
+            </a>
+              Connect With Me
+          </Button> */}
           <div className="social-icons">
             {data.social.map(socialLink => (
               <a
