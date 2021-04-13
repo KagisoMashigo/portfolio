@@ -110,36 +110,43 @@ export default {
     {
       id: 1,
       img: nodeIcon,
+      skill: "Node",
       para:
         "I am very comfortable working with Node.js and npm in the CLI",
     },
     {
       id: 2,
       img: rubyIcon,
+      skill: "Ruby",
       para:
       "Ruby is a language I am comfortable with. I still have a bit to learn here but I am fully capable of building a full-stack application using Ruby and Ruby on Rails",
     },
     {
       id: 3,
       img: jsIcon,
+      skill: "JavaScript",
+
       para:
       "JavaScript is my strongest language and not only am I very comfortable but also look forward to working in the language",
     },
     {
       id: 4,
       img: reactIcon,
+      skill: "React",
       para:
         "React is my frontend development framework of choice and I am always eager to learn more and improve my ever-growing skills here",
     },
     {
       id: 5,
       img: sqlIcon,
+      skill: "PostgreSql",
       para:
         "I have detailed knowledge of Data Structures and hands-on experience creating and managing databases using PostgreSQL and SQLite ",
     },
     {
       id: 6,
       img: testIcon,
+      skill: "Testing",
       para:
         "I have experience working across multiple testing suites such as Mocha, Chai, Cypress, Jest, and Storybook. I have also implemented automated tests.",
     },
