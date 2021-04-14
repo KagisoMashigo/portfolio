@@ -1,12 +1,26 @@
+h1 {
+  font-size: 3rem;
+  line-height: 20px;
+  margin-top: 10vh;
+
+}
 .skills-container {
   width: 80vw;
-  margin-top: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  h1 {
-    font-size: 3rem;
-    line-height: 20px;
+
+  .skill-img {
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    width:150px
+  }
+
+  .skills-grid {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;    
   }
 
   .skills-grid {
@@ -19,7 +33,7 @@
     }
     html,body{
       display: grid;
-      height: 100px;
+      height: 60px;
       place-items: center;
       background: #6665ee;
     }

@@ -5,27 +5,26 @@ const Skills = () => {
   return (
     <div className="section">
       <div className="container">
-        <div className="skills-container">
           <h1>Skills</h1>
+        <div className="skills-container">
           <div className="skills-grid">
             {data.skills.map(skill => (
               <div className="skill" key={skill.id}>
-                <img src={skill.img} alt="css"></img>
+                <img src={skill.img} alt="css" className="skill-img"></img>
                 <div class="bar">
-      <div class="info">
-        <span>{skill.skill}</span>
-      </div>
-      <div class="progress-line html">
-        <span></span>
-      </div>
-    </div>              </div>
+                <div class="info">
+                  <span>{skill.skill}</span>
+                </div>
+                <div class="progress-line html">
+                  <span></span>
+                </div>
+                </div>              
+              </div>
             ))}
           </div>
         </div>
       </div>
     </div>
-
-    
   )
 }
 
