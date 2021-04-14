@@ -139,7 +139,7 @@ export default {
     {
       id: 5,
       img: sqlIcon,
-      skill: "PostgreSql",
+      skill: "PSQL",
       para:
         "I have detailed knowledge of Data Structures and hands-on experience creating and managing databases using PostgreSQL and SQLite ",
     },
