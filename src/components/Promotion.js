@@ -15,19 +15,21 @@ const Promotion = () => {
             <Fade bottom cascade>
               {data.playlists.map(playlist => (
                 <span className="playlists">
-                <Card
-                  key={playlist.id}
-                  heading={playlist.title}
-                  paragraph={playlist.para}
-                  imgUrl={playlist.imageSrc}
-                  projectLink={playlist.url}
-                ></Card>
-                <iframe src={playlist.embededUrl}
-                width="300" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"
-                // key={playlist.id}
+                  <div className="card">
+                  <Card
+                    key={playlist.id}
+                    heading={playlist.title}
+                    paragraph={playlist.para}
+                    imgUrl={playlist.imageSrc}
+                    projectLink={playlist.url}
+                  ></Card>
+                  </div>
+                  <iframe src={playlist.embededUrl}
+                  width="300" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"
+                  // key={playlist.id}
 
-                >
-                </iframe>
+                  >
+                  </iframe>
                 </span>
               ))}
             </Fade>
