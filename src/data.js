@@ -5,6 +5,11 @@ import reactIcon from "./images/react-brands.svg"
 import jsIcon from "./images/node-js-brands.svg"
 import sqlIcon from "./images/sql.svg"
 import testIcon from "./images/test.svg"
+import flutterIcon from "./images/flutter.svg"
+import dartlangIcon from "./images/dartlang.svg"
+import firebaseIcon from "./images/firebase.svg"
+
+
 
 // Social Icon
 import githubIcon from "./images/github.svg"
@@ -12,7 +17,7 @@ import twitterIcon from "./images/twitter.svg"
 import linkedinIcon from "./images/linkedin.svg"
 import spotifyIcon from "./images/spotify.svg"
 
-export default {
+ const data = {
 
   // Header Details
   name: "Kagiso",
@@ -21,7 +26,7 @@ export default {
     // Line 1 For Header
     "Human,",
     // Line 2 For Header
-    "Full-Stack Web Dev,",
+    "Cross-Platform Dev,",
     // Line 3 For Header
     "and Playlist Maker",
   ],
@@ -91,7 +96,17 @@ export default {
       
       url: "https://github.com/KagisoMashigo/Jungle",
     },
- 
+    {
+      id: 6, 
+      title: "Coronavirus Tracker", 
+      para:
+        "A corona virus tracking app built for Android and iOS with Flutter and Dart.", 
+      
+      imageSrc:
+        "https://github.com/KagisoMashigo/corona_virus_rest_api_flutter_course/blob/main/assets/docs/Screen%20Shot%202021-08-04%20at%2011.38.55.png?raw=true",
+      
+      url: "https://github.com/KagisoMashigo/corona_virus_rest_api_flutter_course",
+    }
   ],
 
   // About Secton
@@ -109,47 +124,52 @@ export default {
   skills: [
     {
       id: 1,
-      img: nodeIcon,
-      skill: "Node",
+      img: flutterIcon,
+      title: "Flutter",
+      skill: "progress-line flutter",
       para:
-        "I am very comfortable working with Node.js and npm in the CLI",
+        "I have experience working across multiple testing suites such as Mocha, Chai, Cypress, Jest, and Storybook. I have also implemented automated tests.",
     },
     {
       id: 2,
-      img: rubyIcon,
-      skill: "Ruby",
-      para:
-      "Ruby is a language I am comfortable with. I still have a bit to learn here but I am fully capable of building a full-stack application using Ruby and Ruby on Rails",
-    },
-    {
-      id: 3,
-      img: jsIcon,
-      skill: "JavaScript",
-
-      para:
-      "JavaScript is my strongest language and not only am I very comfortable but also look forward to working in the language",
-    },
-    {
-      id: 4,
-      img: reactIcon,
-      skill: "React",
-      para:
-        "React is my frontend development framework of choice and I am always eager to learn more and improve my ever-growing skills here",
-    },
-    {
-      id: 5,
-      img: sqlIcon,
-      skill: "PSQL",
+      img: dartlangIcon,
+      title: "Dart",
+      skill: "progress-line dart",
       para:
         "I have detailed knowledge of Data Structures and hands-on experience creating and managing databases using PostgreSQL and SQLite ",
     },
     {
-      id: 6,
-      img: testIcon,
-      skill: "Testing",
+      id: 3,
+      img: reactIcon,
+      title: "React",
+      skill: "progress-line react",
       para:
-        "I have experience working across multiple testing suites such as Mocha, Chai, Cypress, Jest, and Storybook. I have also implemented automated tests.",
+        "React is my frontend development framework of choice and I am always eager to learn more and improve my ever-growing skills here",
     },
+    {
+      id: 4,
+      img: jsIcon,
+      title: "JavaScript",
+      skill: "progress-line js",
+      para:
+      "JavaScript is my strongest language and not only am I very comfortable but also look forward to working in the language",
+    },
+    {
+      id: 5,
+      img: firebaseIcon,
+      title: "Firebase",
+      skill: "progress-line firebase",
+      para:
+        "I am very comfortable working with Node.js and npm in the CLI",
+    },
+    {
+      id: 6,
+      img: rubyIcon,
+      title: "Ruby",
+      skill: "progress-line ruby",
+      para:
+      "Ruby is a language I am comfortable with. I still have a bit to learn here but I am fully capable of building a full-stack application using Ruby and Ruby on Rails",
+    }
   ],
 
   // Promotion Section 
@@ -220,3 +240,5 @@ export default {
 
   ],
 }
+
+export default data
