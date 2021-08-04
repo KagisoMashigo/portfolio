@@ -19,6 +19,12 @@
     width:80px
   }
 
+  .skill-title {
+    display: flex;
+    flex-direction: row;
+margin: 10px;
+  }
+
   .skills-grid {
     display: grid;
     width: 100%;
@@ -104,22 +110,22 @@
       animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
     }
     .bar .progress-line.react span{
-      width: 10%;
+      width: 55%;
     }
     .bar .progress-line.ruby span{
-      width: 10%;
+      width: 45%;
     }
     .bar .progress-line.dart span{
-      width: 85%;
+      width: 55%;
     }
     .bar .progress-line.flutter span{
-      width: 50%;
+      width: 60%;
     }
     .bar .progress-line.js span{
-      width: 75%;
+      width: 70%;
     }
     .bar .progress-line.firebase span{
-      width: 75%;
+      width: 45%;
     }
     .progress-line span::before{
       position: absolute;
@@ -156,22 +162,22 @@
       }
     }
     .progress-line.react span::after{
-      content: "10%";
+      content: "75%";
     }
     .progress-line.ruby span::after{
-      content: "60%";
+      content: "65%";
     }
     .progress-line.dart span::after{
-      content: "85%";
+      content: "75%";
     }
     .progress-line.flutter span::after{
-      content: "50%";
+      content: "80%";
     }
     .progress-line.js span::after{
-      content: "75%";
+      content: "90%";
     }
     .progress-line.firebase span::after{
-      content: "75%";
+      content: "65%";
     }
   }
 }

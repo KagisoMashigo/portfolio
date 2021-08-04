@@ -5,7 +5,7 @@ const Skills = () => {
   return (
     <div className="section">
       <div className="container">
-          <h1 className="skill-heading">Primary Skills</h1>
+          <h1 className="skill-heading">Skills</h1>
         <div className="skills-container">
           <div className="skills-grid">
             {data.skills.map(skill => (
@@ -13,7 +13,7 @@ const Skills = () => {
                 <img src={skill.img} alt="css" className="skill-img"></img>
                 <div class="bar">
                   <div class="info">
-                    <span>{skill.skill}</span>
+                    <span className="skill-title">{skill.title}</span>
                   </div>
                   <div class={skill.skill}>
                     <span></span>
