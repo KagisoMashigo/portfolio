@@ -24,100 +24,126 @@ import spotifyIcon from "./images/spotify.svg"
   fullName: "Kagiso Mashigo",
   headerTagline: [
     // Line 1 For Header
-    "Human,",
+    "Flutter Developer,",
     // Line 2 For Header
-    "Cross-Platform Dev,",
+    "Web Developer,",
     // Line 3 For Header
     "and Playlist Maker",
   ],
   // Header Paragraph
   headerParagraph:
-    `Welcome to my portfolio! 
-    I've spent hours on hours making these projects, so please take your time looking. I am both proficient in frontend and backend 
-    work and would love to chat to you should you have any questions!`,
+    `This is my portfolio and as you can see I am Kagiso. I am a Full-Stack developer specialising in Flutter and Web development.
+    I have similar experience in both and am looking to deep dive and become an expert in one of them depending on whichever opportunity may come my way.`,
 
   // Contact Email
   contactEmail: "kagiso.k.mashigo@gmail.com",
 
   // Work Section
-  projects: [
+  webProjects: [
     {
       id: 1, 
       title: "Layers", 
       para:
-        "Layers is an app for isolating stems of a song. It's a sleek, responsive app with a React JS frontend and an Express JS and Node JS backend.", 
+        "Layers is an app for isolating stems of a song to then practice your favourite parts. It's a sleek, responsive web app built with React on the frontend and Express and Node on the backend.", 
       
       imageSrc:
         "https://raw.githubusercontent.com/rothavanathan/LHL-final-project/master/client/public/logo512.png",
       
       url: "https://layers-irl.netlify.app/",
+      stack: reactIcon
     },
     {
       id: 2, 
       title: "Scheduler", 
       para:
-        "The Scheduler is a simple interview appointment creating tool. It is a sleek and responsive SPA using React technology.", 
+        "The Scheduler is a simple interview appointment scheduling tool. It is a fun and responsive SPA built using React and tested with Jest and Storybook.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/scheduler/raw/master/docs/Screenshot%20from%202020-12-16%2019-00-18.png?raw=true",
       
       url: "https://scheduler-kagisomash.netlify.app/",
+      stack: reactIcon
+
     },
     {
       id: 3, 
       title: "Tweeter", 
       para:
-        "Tweeter is a sleek, simple, SPA Twitter clone. Technologies used are CSS, JS, jQuery, AJAX, Node, Express and MongoDB.", 
+        "Tweeter is a quirky interactive Twitter clone designed as a SPA. The technologies used to build it are CSS, JS, jQuery, AJAX, Node, Express and, MongoDB.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/tweeter/raw/master/public/images/screenshots/desktop-form-toggle-down.png?raw=true",
       
       url: "https://tweeter-kagisomash.herokuapp.com/",
+      stack: jsIcon
+
     },
     {
       id: 4, 
       title: "TinyApp", 
       para:
-        "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs.", 
+        "TinyApp is a full-stack web application built with Node and Express that allows users to shorten long URLs and save them within their own created account.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/tinyapp/raw/master/docs/my-urls-page.png?raw=true",
       
       url: "https://github.com/KagisoMashigo/tinyapp",
+      stack: jsIcon
+
     },
     {
       id: 5, 
       title: "Jungle", 
       para:
-        "A mini e-commerce application built with Rails 4.2. It is a responsive MPA using a Rails backend with Active Record.", 
+        "A mini e-commerce application built with Ruby on Rails. It is a responsive MPA using a Rails backend with Active Record and follows the MVC design pattern.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/Jungle/raw/master/app/assets/images/Screenshot%20from%202021-01-13%2014-23-02.png?raw=true",
       
       url: "https://github.com/KagisoMashigo/Jungle",
+      stack: rubyIcon
+
     },
     {
       id: 6, 
       title: "Coronavirus Tracker", 
       para:
-        "A corona virus tracking app built for Android and iOS with Flutter and Dart.", 
+        "A corona virus cases tracking app built for Android and iOS with Flutter and Dart.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/corona_virus_rest_api_flutter_course/blob/main/assets/docs/Screen%20Shot%202021-08-04%20at%2011.38.55.png?raw=true",
       
       url: "https://github.com/KagisoMashigo/corona_virus_rest_api_flutter_course",
+      stack: flutterIcon
+    },
+    {
+      id: 7, 
+      title: "Time Tracker", 
+      para:
+        "A time tracking app that allows you to record various jobs as well as individual entries of particular jobs. User management as well as Facebook and Google sign-in are available. It is built for Android and iOS with Flutter and Dart.", 
+      
+      imageSrc:
+        "https://github.com/KagisoMashigo/time_tracker/raw/main/images/docs/login.png?raw=true",
+      
+      url: "https://github.com/KagisoMashigo/time_tracker",
+      stack: flutterIcon
+
     }
   ],
 
+  flutterProjects: [
+    
+],
+
   // About Secton
   aboutParaOne:
-    "So who is this human in front of you? Johannesburg born, Cape Town raised and living in Montreal it's safe to say I may have an interesting take on life.",
+    "So who is this human in front of you? I'm a Full Stack developer with experience across multiple projects on a professional level and am based in Montreal, Canada.",
   aboutParaTwo:
-    "In my personal life, I love finding new projects to build, geared towards things that make a user's life easier or more insightful. I'm a huge fan of making playlists as you'll see below and am an avid craft beer drinker. I really enjoy being a part of a team and learning from others.",
+    "Whilst I am a Full Stack dev I do lean more towards the Frontend. Frameworks I am particularly skilled with are React and Flutter. I have primarily worked at startups including a Series A startup. Thus I am highly adaptable, flexible, and used to Agile environments. I am very comfortable taking ownership of new features and writing tests for them.",
   aboutParaThree:
     "As a developer, I have attention to detail and a penchant for squashing bugs. I care about things and I care about getting things done, I believe finding a good balance between the two is what allows one to simultaneously be a consummate professional and a human being.",
-  aboutImage:
-    "https://images.unsplash.com/photo-1519713958759-6254243c4a53?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+  aboutParaFour:
+    "I am also a confident speaker and have given a conference on Flutter Development.",
 
   // Skills Section
 
@@ -181,9 +207,12 @@ import spotifyIcon from "./images/spotify.svg"
 
   // Contact Section 
 
-  contactSubHeading: "If you're looking for a fresh new dev to join your team, let's talk!",
+  contactSubHeading: "If something here piques your interest, don't hesitate to get in touch.",
+
   social: [
-    { img: githubIcon, url: "https://github.com/KagisoMashigo" },
+    { img: githubIcon, 
+      url: "https://github.com/KagisoMashigo"
+    },
     {
       img: twitterIcon,
       url: "https://twitter.com/master_kakes",
