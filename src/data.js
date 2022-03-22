@@ -120,7 +120,7 @@ import spotifyIcon from "./images/spotify.svg"
       id: 7, 
       title: "Time Tracker", 
       para:
-        "A time tracking app that allows you to record various jobs as well as entries of those jobs. User management, Facebook and Google sign-in are available. Built for Android and iOS with Flutter and Dart.", 
+        "A time tracking app that allows you to record work hours. Facebook and Google sign-in are available. Built for Android and iOS with Flutter and Dart.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/time_tracker/raw/main/images/docs/login.png?raw=true",
