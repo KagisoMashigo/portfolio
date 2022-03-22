@@ -44,7 +44,7 @@ import spotifyIcon from "./images/spotify.svg"
       id: 1, 
       title: "Layers", 
       para:
-        "Layers is an app for isolating stems of a song to then practice your favourite parts. It's a sleek, responsive web app built with React on the frontend and Express and Node on the backend.", 
+        "With Layers once can isolate stems of a song to then practice your favourite parts. It's a sleek, responsive web app built with React, Express and, Node.", 
       
       imageSrc:
         "https://raw.githubusercontent.com/rothavanathan/LHL-final-project/master/client/public/logo512.png",
@@ -82,7 +82,7 @@ import spotifyIcon from "./images/spotify.svg"
       id: 4, 
       title: "TinyApp", 
       para:
-        "TinyApp is a full-stack web application built with Node and Express that allows users to shorten long URLs and save them within their own created account.", 
+        "TinyApp is a full-stack web app built with Node and Express. Users can shorten URLs and save them in their created account.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/tinyapp/raw/master/docs/my-urls-page.png?raw=true",
@@ -120,7 +120,7 @@ import spotifyIcon from "./images/spotify.svg"
       id: 7, 
       title: "Time Tracker", 
       para:
-        "A time tracking app that allows you to record various jobs as well as individual entries of particular jobs. User management as well as Facebook and Google sign-in are available. It is built for Android and iOS with Flutter and Dart.", 
+        "A time tracking app that allows you to record various jobs as well as entries of those jobs. User management, Facebook and Google sign-in are available. Built for Android and iOS with Flutter and Dart.", 
       
       imageSrc:
         "https://github.com/KagisoMashigo/time_tracker/raw/main/images/docs/login.png?raw=true",
