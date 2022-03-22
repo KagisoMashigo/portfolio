@@ -3,6 +3,8 @@
   line-height: 20px;
   margin-top: 10vh;
   margin-bottom: 8vh;
+  text-align: left;
+  width: 80%;
 }
 
 .skills-container {
@@ -21,8 +23,9 @@
 
   .skill-title {
     display: flex;
-    flex-direction: row;
-margin: 10px;
+    text-align: left;
+    // flex-direction: row;
+    margin: 10px;
   }
 
   .skills-grid {
