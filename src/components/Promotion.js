@@ -16,13 +16,14 @@ const Promotion = () => {
               {data.playlists.map(playlist => (
                 <span className="playlists">
                   <div className="card">
-                  <Card
+                  {/* <Card
                     key={playlist.id}
                     heading={playlist.title}
                     paragraph={playlist.para}
                     imgUrl={playlist.imageSrc}
                     projectLink={playlist.url}
-                  ></Card>
+                  >
+                  </Card> */}
                   </div>
                   <iframe src={playlist.embededUrl}
                   width="300" height="250" frameborder="0" allowtransparency="true" allow="encrypted-media"

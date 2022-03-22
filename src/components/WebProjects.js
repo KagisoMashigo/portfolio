@@ -4,7 +4,7 @@ import Fade from "react-reveal/Fade"
 
 import data from "../data"
 
-const Work = () => {
+const WebWork = () => {
   return (
     <div className="section" id="work">
       <div className="container">
@@ -15,13 +15,14 @@ const Work = () => {
 
           <div className="grid">
             <Fade bottom cascade>
-              {data.projects.map(project => (
+              {data.webProjects.map(project => (
                 <Card
                   key={project.id}
                   heading={project.title}
                   paragraph={project.para}
                   imgUrl={project.imageSrc}
                   projectLink={project.url}
+                  stackImg={project.stack}
                 ></Card>
               ))}
             </Fade>
@@ -32,4 +33,4 @@ const Work = () => {
   )
 }
 
-export default Work
+export default WebWork

@@ -1,6 +1,6 @@
 import React from "react"
 
-const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
+const Card = ({ heading, paragraph, imgUrl, projectLink, stackImg }) => {
   return (
     <div
       className="card"
@@ -12,16 +12,21 @@ const Card = ({ heading, paragraph, imgUrl, projectLink }) => {
       }}
     >
       <div className="content">
-        <h1 className="header">{heading}</h1>
-        <p className="text">{paragraph}</p>
-        <a
-          href={projectLink ? projectLink : "#"}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn"
-        >
-          Explore
-        </a>
+        <div className="content-text">
+          <h1 className="header">{heading}</h1>
+          <p className="text">{paragraph}</p>
+        </div>
+        <div className="pictures">
+          <a
+            href={projectLink ? projectLink : "#"}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn"
+          >
+            Explore
+          </a>
+          <img src={stackImg} alt="project logo" width="50" height="30"></img>
+        </div>
       </div>
     </div>
   )

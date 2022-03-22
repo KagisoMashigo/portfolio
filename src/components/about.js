@@ -21,6 +21,10 @@ const About = () => {
               <br></br>
               <br></br>
               {data.aboutParaThree}
+              <br></br>
+              <br></br>
+              {data.aboutParaFour}
+              <p><a href="https://www.meetup.com/fr-FR/stack-days-montreal-ca/events/280671671/" target="_blank" rel="noopener noreferrer">Check it out here.</a></p>
             </p>
           </div>
           <div className="image-wrapper">
