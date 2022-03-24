@@ -9,10 +9,12 @@ const Button = styled.button`
   color: ${({ theme }) => theme.buttonText};
   border-radius: 30px;
   cursor: pointer;
-  font-size:0.8rem;
+  font-size: 1rem;
   padding: 0.6rem;
-  width: 120px;
-  height: 50px;
+  width: 10rem;
+  height: 3rem;
+  margin: 10px;
+  font-weight: 550;
   }
 `;
 
