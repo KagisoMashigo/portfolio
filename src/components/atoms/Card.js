@@ -22,10 +22,11 @@ const Card = ({ heading, paragraph, imgUrl, projectLink, stackImg }) => {
             target="_blank"
             rel="noopener noreferrer"
             className="btn"
+            
           >
             Explore
           </a>
-          <img src={stackImg} alt="project logo" width="50" height="30"></img>
+          <img src={stackImg} alt="project logo" width="60" height="60"></img>
         </div>
       </div>
     </div>

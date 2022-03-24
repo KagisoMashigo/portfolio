@@ -1,6 +1,7 @@
 .card {
   width: 100%;
-  height: 250px;
+  height: 90%;
+  padding: 10px;
   // overflow: hidden !important;
   display: flex;
   // align-items: center;
@@ -20,16 +21,20 @@
     // opacity: 0;
     // transition: all 500ms ease-in-out;
     // transform: translate(0, 20px);
-    cursor: pointer;
     h1 {
       font-size: 18px;
-      color: rgb(0, 0, 0);
+      // color: rgb(0, 0, 0);
     }
     p {
       // align-self: flex-end;
       font-size: 14px;
-      color: rgb(0, 0, 0);
+      // color: rgb(0, 0, 0);
       margin-bottom: 20px;
+    }
+
+    .content-text {
+      width: 100%;
+      color: inherit;
     }
 
     .pictures {
@@ -40,8 +45,18 @@
     .btn {
       background-color: black;
       color: white;
-      padding: 10px;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      font-size: 1rem;
+      padding: 0.6rem;
+      width: 5rem;
+      height: 1.25rem;
+      text-align: center;
+      margin: 10px;
       text-decoration: none;
+      cursor: pointer;
+      font-weight: 550;
     }
     // &:hover {
     //   opacity: 1;
@@ -50,4 +65,5 @@
     //   width: 80%;
     // }
   }
+
 }
