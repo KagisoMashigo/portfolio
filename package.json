@@ -4,22 +4,22 @@
   "homepage": "https://kagisomashigo.github.io/portfolio/",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.5",
-    "@testing-library/user-event": "^12.6.3",
-    "gh-pages": "^3.1.0",
+    "@testing-library/jest-dom": "^5.16.3",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "gh-pages": "^3.2.3",
     "node-sass": "^4.14.1",
-    "prop-types": "^15.7.2",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
+    "prop-types": "^15.8.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "react-download-link": "^2.3.0",
     "react-ga": "^3.3.0",
     "react-helmet": "^6.1.0",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.2",
-    "react-scroll": "^1.8.1",
-    "styled-components": "^5.2.1",
-    "web-vitals": "^1.1.0"
+    "react-scroll": "^1.8.6",
+    "styled-components": "^5.3.5",
+    "web-vitals": "^1.1.2"
   },
   "devDependencies": {
     "prettier": "2.1.2"
