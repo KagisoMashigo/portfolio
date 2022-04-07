@@ -266,6 +266,19 @@ import spotifyIcon from "./images/spotify.svg"
       embededUrl: "https://open.spotify.com/embed/playlist/2X2Xn4Q3t42rBSEc3p4Bp5"
 
     },
+    // {
+    //   id: 4, 
+    //   title: "90's Style Hip-Hop", 
+    //   para:
+    //     "House that sounds as groovy as you look.", 
+      
+    //   imageSrc:
+    //     "https://images.unsplash.com/photo-1582103121609-6467f9db55ea?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80",
+      
+    //   url: "https://open.spotify.com/playlist/1HYMOgdGqfbDKfJT5dkU2Y",
+    //   embededUrl: "https://open.spotify.com/playlist/1HYMOgdGqfbDKfJT5dkU2Y"
+
+    // },
 
   ],
 }
