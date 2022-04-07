@@ -24,9 +24,9 @@ import spotifyIcon from "./images/spotify.svg"
   fullName: "Kagiso Mashigo",
   headerTagline: [
     // Line 1 For Header
-    "Flutter Developer,",
+    "Human,",
     // Line 2 For Header
-    "Web Developer,",
+    "Software Developer,",
     // Line 3 For Header
     "and Playlist Maker",
   ],
