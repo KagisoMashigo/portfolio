@@ -54,6 +54,19 @@ import spotifyIcon from "./images/spotify.svg"
     },
     {
       id: 2, 
+      title: "Fun With GPT-3", 
+      para:
+        "GPT-3 is a powerful A.I. model created by OpenAI. With this web app, you will be able to craft prompts to send to various engines and see their replies!", 
+      
+      imageSrc:
+        "https://github.com/KagisoMashigo/fun_with_GPT-3/blob/main/src/assets/Screen%20Shot%202022-05-18%20at%2012.18.46.png?raw=true",
+      
+      url: "https://github.com/KagisoMashigo/fun_with_GPT-3",
+      stack: reactIcon
+
+    },
+    {
+      id: 3, 
       title: "Scheduler", 
       para:
         "The Scheduler is a simple interview appointment scheduling tool. It is a fun and responsive SPA built using React and tested with Jest and Storybook.", 
@@ -66,7 +79,7 @@ import spotifyIcon from "./images/spotify.svg"
 
     },
     {
-      id: 3, 
+      id: 4, 
       title: "Tweeter", 
       para:
         "Tweeter is a quirky interactive Twitter clone designed as a SPA. The technologies used to build it are CSS, JS, jQuery, AJAX, Node, Express and, MongoDB.", 
@@ -75,19 +88,6 @@ import spotifyIcon from "./images/spotify.svg"
         "https://github.com/KagisoMashigo/tweeter/raw/master/public/images/screenshots/desktop-form-toggle-down.png?raw=true",
       
       url: "https://tweeter-kagisomash.herokuapp.com/",
-      stack: jsIcon
-
-    },
-    {
-      id: 4, 
-      title: "TinyApp", 
-      para:
-        "TinyApp is a full-stack web app built with Node and Express. Users can shorten URLs and save them in their created account.", 
-      
-      imageSrc:
-        "https://github.com/KagisoMashigo/tinyapp/raw/master/docs/my-urls-page.png?raw=true",
-      
-      url: "https://github.com/KagisoMashigo/tinyapp",
       stack: jsIcon
 
     },
@@ -128,7 +128,20 @@ import spotifyIcon from "./images/spotify.svg"
       url: "https://github.com/KagisoMashigo/time_tracker",
       stack: flutterIcon
 
-    }
+    },
+    {
+      id: 8, 
+      title: "TinyApp", 
+      para:
+        "TinyApp is a full-stack web app built with Node and Express. Users can shorten URLs and save them in their created account.", 
+      
+      imageSrc:
+        "https://github.com/KagisoMashigo/tinyapp/raw/master/docs/my-urls-page.png?raw=true",
+      
+      url: "https://github.com/KagisoMashigo/tinyapp",
+      stack: jsIcon
+
+    },
   ],
 
   flutterProjects: [
