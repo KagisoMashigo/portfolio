@@ -114,13 +114,13 @@
       animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
     }
     .bar .progress-line.react span{
-      width: 55%;
+      width: 70%;
     }
     .bar .progress-line.ruby span{
       width: 45%;
     }
     .bar .progress-line.dart span{
-      width: 55%;
+      width: 60%;
     }
     .bar .progress-line.flutter span{
       width: 60%;
@@ -166,13 +166,13 @@
       }
     }
     .progress-line.react span::after{
-      content: "75%";
+      content: "90%";
     }
     .progress-line.ruby span::after{
       content: "65%";
     }
     .progress-line.dart span::after{
-      content: "75%";
+      content: "80%";
     }
     .progress-line.flutter span::after{
       content: "80%";

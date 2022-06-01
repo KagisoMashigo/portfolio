@@ -162,22 +162,6 @@ import spotifyIcon from "./images/spotify.svg"
 
   skills: [
     {
-      id: 1,
-      img: flutterIcon,
-      title: "Flutter",
-      skill: "progress-line flutter",
-      para:
-        "I have experience working across multiple testing suites such as Mocha, Chai, Cypress, Jest, and Storybook. I have also implemented automated tests.",
-    },
-    {
-      id: 2,
-      img: dartlangIcon,
-      title: "Dart",
-      skill: "progress-line dart",
-      para:
-        "I have detailed knowledge of Data Structures and hands-on experience creating and managing databases using PostgreSQL and SQLite ",
-    },
-    {
       id: 3,
       img: reactIcon,
       title: "React",
@@ -192,6 +176,23 @@ import spotifyIcon from "./images/spotify.svg"
       skill: "progress-line js",
       para:
       "JavaScript is my strongest language and not only am I very comfortable but also look forward to working in the language",
+    },
+    {
+      
+      id: 1,
+      img: flutterIcon,
+      title: "Flutter",
+      skill: "progress-line flutter",
+      para:
+        "I have experience working across multiple testing suites such as Mocha, Chai, Cypress, Jest, and Storybook. I have also implemented automated tests.",
+    },
+    {
+      id: 2,
+      img: dartlangIcon,
+      title: "Dart",
+      skill: "progress-line dart",
+      para:
+        "I have detailed knowledge of Data Structures and hands-on experience creating and managing databases using PostgreSQL and SQLite ",
     },
     {
       id: 5,
