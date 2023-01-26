@@ -40,6 +40,19 @@ import spotifyIcon from "./images/spotify.svg"
 
   // Work Section
   webProjects: [
+      {
+      id: 8, 
+      title: "Chow Down", 
+      para:
+        "Chow Down allows you to store all your favourite recipes for easy access and retrieval at any point you need, in a fun and friendly format for ease of use. You can extract recipes from your favourite links or search our database of existing recipes for inspiration. Now you'll never have to worry about remembering where your favourite recipes links are as they will all be in one place.", 
+      
+      imageSrc:
+        "https://github.com/KagisoMashigo/chow_down/raw/main/assets/screenshots/Screenshot_20230111-124800.png?raw=true",
+      
+      url: "https://play.google.com/store/apps/details?id=com.code_with_kakes.chow_down&hl=en&gl=US",
+      stack: flutterIcon
+
+    },
     {
       id: 1, 
       title: "Layers", 
@@ -129,19 +142,19 @@ import spotifyIcon from "./images/spotify.svg"
       stack: flutterIcon
 
     },
-    {
-      id: 8, 
-      title: "TinyApp", 
-      para:
-        "TinyApp is a full-stack web app built with Node and Express. Users can shorten URLs and save them in their created account.", 
+    // {
+    //   id: 8, 
+    //   title: "TinyApp", 
+    //   para:
+    //     "TinyApp is a full-stack web app built with Node and Express. Users can shorten URLs and save them in their created account.", 
       
-      imageSrc:
-        "https://github.com/KagisoMashigo/tinyapp/raw/master/docs/my-urls-page.png?raw=true",
+    //   imageSrc:
+    //     "https://github.com/KagisoMashigo/tinyapp/raw/master/docs/my-urls-page.png?raw=true",
       
-      url: "https://github.com/KagisoMashigo/tinyapp",
-      stack: jsIcon
+    //   url: "https://github.com/KagisoMashigo/tinyapp",
+    //   stack: jsIcon
 
-    },
+    // },
   ],
 
   flutterProjects: [

@@ -13,7 +13,7 @@
     justify-content: space-between;
     margin-top: 20px;
     grid-template-columns: repeat(1, 1fr);
-    grid-gap: 10px;
+    grid-gap: 200px;
     @include media(">=phone", "<lgphone") {
       grid-template-columns: 1fr;
     }
